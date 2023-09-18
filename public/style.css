@@ -1,0 +1,14 @@
+svg {
+  background-color: rgb(230,230,230);
+  margin: 1rem;
+}
+svg line {
+  stroke:red;
+  stroke-width:2;
+}
+#ab {
+  stroke:blue;
+}
+#bc {
+  stroke:green;
+}

@@ -35,7 +35,22 @@ if (form && sideA && sideB && sideC && alpha && beta && gamma && perimeter && co
     
             perimeter.value = String(triangle.Perimeter);
             content.value = String(triangle.Content);
-            
+
+
+            lineAB.setAttribute("x1", String(A.x));
+            lineAB.setAttribute("y1", String(A.y));
+            lineAB.setAttribute("x2", String(B.x));
+            lineAB.setAttribute("y2", String(B.y));
+
+            lineBC.setAttribute("x1", String(B.x));
+            lineBC.setAttribute("y1", String(B.y));
+            lineBC.setAttribute("x2", String(C.x));
+            lineBC.setAttribute("y2", String(C.y));
+
+            lineCA.setAttribute("x1", String(C.x));
+            lineCA.setAttribute("y1", String(C.y));
+            lineCA.setAttribute("x2", String(A.x));
+            lineCA.setAttribute("y2", String(A.y));
         }
 
         else {
